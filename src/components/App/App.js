@@ -6,7 +6,6 @@ import { TransitionGroup, CSSTransition } from 'react-transition-group'
 import Home from '../../containers/Home'
 import Settings from '../../containers/Settings'
 
-import GifsPage from '../../pages/GifsPage'
 import InfosPage from '../../pages/InfosPage'
 import { addLocaleData } from 'react-intl'
 import { Provider } from 'react-redux'
@@ -57,7 +56,6 @@ const App = ({ location }) => {
                 <Section className="page-main-inner">
                   <Switch location={location}>
                     <Route exact path="/home" component={Home} />
-                    <Route exact path="/home/gifts" component={GifsPage} />
                     <Route exact path="/home/infos" component={InfosPage} />
                     <Route exact path="/home/params" component={Settings} />
                     <Route exact path="/" component={Home} />

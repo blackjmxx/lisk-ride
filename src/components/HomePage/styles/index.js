@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import {Image as SemanticImage} from "semantic-ui-react";
 import { Theme, iphone6MaxWidth, iphone5SEMaxWidth } from "../../Theme";
-import StampCardDetailsComponent from "../../StampCardDetails/StampCardDetails";
 
 const circleSize = 130;
 const modifiedCircleSize = circleSize * 0.9;
@@ -23,11 +22,6 @@ export const CardsContainer = styled.div`
     display: flex;
     justify-content: center;
     height: 25%;
-`;
-
-export const StampCardDetails = styled(StampCardDetailsComponent)`
-    margin: auto;
-    width: 50%;
 `;
 
 export const SingleCard = styled.div`

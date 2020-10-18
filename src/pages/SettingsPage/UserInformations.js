@@ -5,7 +5,6 @@ import { LogoutPopup } from "../../components/LogoutPopup/LogoutPopup";
 import { BlueButton } from "./LoginForm/LoginTab/style";
 
 import { CardsContainer } from "../../components/HomePage/styles";
-import CardsCarusel from "../../components/CardsCarusel/CardsCarusel";
 import {
   UserInformationContainer,
   TitleContainer,
@@ -103,10 +102,6 @@ const UserInformations = (props) => {
         </ImageContainer>
       </TopInformationContainer>
       <CardsContainer>
-        <CardsCarusel
-          cards={props.cards}
-          handleSelectCard={props.handleSelectCard}
-        />
       </CardsContainer>
       <InfomationsContainer>
         <Informations {...props} />

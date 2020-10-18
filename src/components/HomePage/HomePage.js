@@ -50,6 +50,7 @@ class HomePage extends Component {
         <GlobalRequireAuth {...this.props}>
           <HomeContainer>
             <Notifications />
+            jbj
           </HomeContainer>
           <Menubar />
         </GlobalRequireAuth>

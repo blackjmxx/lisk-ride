@@ -40,14 +40,7 @@ class TabBarRow extends Component {
               name: 'scan',
               label:'scan',
               icon: scanIcon
-          },
-          {
-              path: '/home/gifts',
-              name: 'offer',
-              label: 'gift',
-              icon: giftIcon,
-              dotted: this.props.isGiftNotification
-          },
+          },,
           {
               path: '/home/infos',
               name: 'notifications',

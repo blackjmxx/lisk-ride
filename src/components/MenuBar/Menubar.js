@@ -10,7 +10,6 @@ import { FormattedMessage } from 'react-intl';
 
 import {SvgIcon} from '../SvgIcon/SvgIcon';
 import {cardIcon} from '../../assets/icons/cardIcon';
-import {giftIcon} from '../../assets/icons/giftIcon';
 import {loginIcon} from '../../assets/icons/loginIcon';
 import {notificationIcon} from '../../assets/icons/notificationIcon';
 import {scanIcon} from '../../assets/icons/scanIcon';
@@ -34,19 +33,6 @@ class TabBarRow extends Component {
               name: 'home',
               label: <FormattedMessage id={"menu.cards"} />,
               icon: cardIcon
-          },
-          {
-              path: '/home/card',
-              name: 'scan',
-              label:<FormattedMessage id={"menu.scan"} />,
-              icon: scanIcon
-          },
-          {
-              path: '/home/gifts',
-              name: 'offer',
-              label: <FormattedMessage id={"menu.gifts"} />,
-              icon: giftIcon,
-              dotted: this.props.isGiftNotification
           },
           {
               path: '/home/infos',
